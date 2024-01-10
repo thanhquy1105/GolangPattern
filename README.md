@@ -10,3 +10,4 @@
 	    instance = &singleton{count: 100}
     }
 ```
+2. BUILDER
