@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/thanhquy1105/GolangPattern/abstractfactory"
 	"github.com/thanhquy1105/GolangPattern/builder"
+	c "github.com/thanhquy1105/GolangPattern/chainofresponsibility"
 	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
 )
@@ -19,4 +20,7 @@ func main() {
 
 	//4. Prototype
 	prototype.Main()
+
+	// 5. Chain Of Responsibility
+	c.Main()
 }

@@ -19,5 +19,5 @@ func Main() {
 			fmt.Printf("%p\n", GetInstance())
 		}()
 	}
-	time.Sleep(time.Second * 10)
+	time.Sleep(time.Second * 5)
 }
