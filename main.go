@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/thanhquy1105/GolangPattern/abstractfactory"
 	"github.com/thanhquy1105/GolangPattern/builder"
+	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
 )
 
@@ -15,4 +16,7 @@ func main() {
 
 	//3. Abstract Factory
 	abstractfactory.Main()
+
+	//4. Prototype
+	prototype.Main()
 }
