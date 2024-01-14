@@ -14,7 +14,6 @@ func (c *Cashier) Execute(p *Patient) {
 	}
 	fmt.Println("Doctor is paying the bill")
 	p.isPaid = true
-	c.next.Execute(p)
 }
 
 func (c *Cashier) SetNext(next Department) {
