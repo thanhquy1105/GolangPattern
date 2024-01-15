@@ -13,4 +13,5 @@
 2. Creational pattern - BUILDER
 3. Creational pattern - ABSTRACT FACTORY
 4. Behavioral pattern - PROTOTYPE
-4. Behavioral pattern - Command
+5. Behavioral pattern - COMMAND
+6. Behavioral pattern - ITERATOR
