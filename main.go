@@ -6,6 +6,7 @@ import (
 	c "github.com/thanhquy1105/GolangPattern/chainofresponsibility"
 	"github.com/thanhquy1105/GolangPattern/command"
 	"github.com/thanhquy1105/GolangPattern/iterator"
+	"github.com/thanhquy1105/GolangPattern/mediator"
 	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
 )
@@ -31,4 +32,7 @@ func main() {
 
 	//7. Iterator
 	iterator.Main()
+
+	//8. Mediator
+	mediator.Main()
 }
