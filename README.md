@@ -15,3 +15,4 @@
 4. Behavioral pattern - PROTOTYPE
 5. Behavioral pattern - COMMAND
 6. Behavioral pattern - ITERATOR
+7. Behavioral pattern - MEMENTO
