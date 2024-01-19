@@ -8,6 +8,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/iterator"
 	"github.com/thanhquy1105/GolangPattern/mediator"
 	"github.com/thanhquy1105/GolangPattern/memento"
+	"github.com/thanhquy1105/GolangPattern/observer"
 	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
 )
@@ -39,4 +40,7 @@ func main() {
 
 	//9. Memento
 	memento.Main()
+
+	//10. Observer
+	observer.Main()
 }
