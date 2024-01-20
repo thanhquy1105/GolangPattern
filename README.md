@@ -16,3 +16,5 @@
 5. Behavioral pattern - COMMAND
 6. Behavioral pattern - ITERATOR
 7. Behavioral pattern - MEMENTO
+8. Behavioral pattern - OBSERVER
+9. Behavioral pattern - STATE

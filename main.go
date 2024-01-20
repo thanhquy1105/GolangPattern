@@ -11,6 +11,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/observer"
 	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
+	"github.com/thanhquy1105/GolangPattern/state"
 )
 
 func main() {
@@ -43,4 +44,7 @@ func main() {
 
 	//10. Observer
 	observer.Main()
+
+	//11. State
+	state.Main()
 }
