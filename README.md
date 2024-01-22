@@ -13,8 +13,10 @@
 2. Creational pattern - BUILDER
 3. Creational pattern - ABSTRACT FACTORY
 4. Behavioral pattern - PROTOTYPE
-5. Behavioral pattern - COMMAND
-6. Behavioral pattern - ITERATOR
-7. Behavioral pattern - MEMENTO
-8. Behavioral pattern - OBSERVER
-9. Behavioral pattern - STATE
+5. Behavioral pattern - CHAIN OF RESPONSIBILITY
+6. Behavioral pattern - COMMAND
+7. Behavioral pattern - ITERATOR
+8. Behavioral pattern - MEMENTO
+9. Behavioral pattern - OBSERVER
+10. Behavioral pattern - STATE
+11. Behavioral pattern - STRATEGY

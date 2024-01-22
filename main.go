@@ -12,6 +12,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/prototype"
 	"github.com/thanhquy1105/GolangPattern/singleton"
 	"github.com/thanhquy1105/GolangPattern/state"
+	"github.com/thanhquy1105/GolangPattern/strategy"
 )
 
 func main() {
@@ -47,4 +48,7 @@ func main() {
 
 	//11. State
 	state.Main()
+
+	//12. Strategy
+	strategy.Main()
 }
