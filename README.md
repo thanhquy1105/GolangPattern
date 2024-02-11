@@ -16,7 +16,9 @@
 5. Behavioral pattern - CHAIN OF RESPONSIBILITY
 6. Behavioral pattern - COMMAND
 7. Behavioral pattern - ITERATOR
-8. Behavioral pattern - MEMENTO
-9. Behavioral pattern - OBSERVER
-10. Behavioral pattern - STATE
-11. Behavioral pattern - STRATEGY
+8. Behavioral pattern - MEDIATOR
+9. Behavioral pattern - MEMENTO
+10. Behavioral pattern - OBSERVER
+11. Behavioral pattern - STATE
+12. Behavioral pattern - STRATEGY
+13. Behavioral pattern - TEMPLATE METHOD

@@ -13,6 +13,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/singleton"
 	"github.com/thanhquy1105/GolangPattern/state"
 	"github.com/thanhquy1105/GolangPattern/strategy"
+	"github.com/thanhquy1105/GolangPattern/templatemethod"
 )
 
 func main() {
@@ -51,4 +52,7 @@ func main() {
 
 	//12. Strategy
 	strategy.Main()
+
+	//13. Template method
+	templatemethod.Main()
 }
