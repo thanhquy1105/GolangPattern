@@ -22,3 +22,4 @@
 11. Behavioral pattern - STATE
 12. Behavioral pattern - STRATEGY
 13. Behavioral pattern - TEMPLATE METHOD
+13. Behavioral pattern - VISITOR

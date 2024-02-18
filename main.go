@@ -14,6 +14,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/state"
 	"github.com/thanhquy1105/GolangPattern/strategy"
 	"github.com/thanhquy1105/GolangPattern/templatemethod"
+	"github.com/thanhquy1105/GolangPattern/visitor"
 )
 
 func main() {
@@ -55,4 +56,7 @@ func main() {
 
 	//13. Template method
 	templatemethod.Main()
+
+	//14. Visitor
+	visitor.Main()
 }
