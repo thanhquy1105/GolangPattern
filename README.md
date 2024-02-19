@@ -23,3 +23,4 @@
 12. Behavioral pattern - STRATEGY
 13. Behavioral pattern - TEMPLATE METHOD
 13. Behavioral pattern - VISITOR
+13. Structural pattern - ADAPTER

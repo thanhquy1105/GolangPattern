@@ -13,6 +13,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/singleton"
 	"github.com/thanhquy1105/GolangPattern/state"
 	"github.com/thanhquy1105/GolangPattern/strategy"
+	adapter "github.com/thanhquy1105/GolangPattern/structuralpattern-adapter"
 	"github.com/thanhquy1105/GolangPattern/templatemethod"
 	"github.com/thanhquy1105/GolangPattern/visitor"
 )
@@ -59,4 +60,7 @@ func main() {
 
 	//14. Visitor
 	visitor.Main()
+
+	//15. Adapter
+	adapter.Main()
 }
