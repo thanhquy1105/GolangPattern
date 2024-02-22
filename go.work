@@ -1,0 +1,21 @@
+go 1.20
+
+use (
+    ./1.creationalpattern-singleton
+    ./2.creationalpattern-builder
+    ./3.creationalpattern-abstractfactory
+    ./4.creationalpattern-prototype
+    ./5.behavioralpattern-chainofresponsibility
+    ./6.behavioralpattern-command
+    ./7.behavioralpattern-iterator
+    ./8.behavioralpattern-mediator
+    ./9.behavioralpattern-memento
+    ./10.behavioralpattern-observer
+    ./11.behavioralpattern-state
+    ./12.behavioralpattern-strategy
+    ./13.behavioralpattern-templatemethod
+    ./14.behavioralpattern-visitor
+    ./15.structuralpattern-adapter
+    ./16.structuralpattern-bridge
+    .
+)

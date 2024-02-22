@@ -1,70 +1,70 @@
 package main
 
 import (
-	"github.com/thanhquy1105/GolangPattern/abstractfactory"
-	"github.com/thanhquy1105/GolangPattern/builder"
-	c "github.com/thanhquy1105/GolangPattern/chainofresponsibility"
-	"github.com/thanhquy1105/GolangPattern/command"
-	"github.com/thanhquy1105/GolangPattern/iterator"
-	"github.com/thanhquy1105/GolangPattern/mediator"
-	"github.com/thanhquy1105/GolangPattern/memento"
-	"github.com/thanhquy1105/GolangPattern/observer"
-	"github.com/thanhquy1105/GolangPattern/prototype"
-	"github.com/thanhquy1105/GolangPattern/singleton"
-	"github.com/thanhquy1105/GolangPattern/state"
-	"github.com/thanhquy1105/GolangPattern/strategy"
-	adapter "github.com/thanhquy1105/GolangPattern/structuralpattern-adapter"
-	bridge "github.com/thanhquy1105/GolangPattern/structuralpattern-bridge"
-	"github.com/thanhquy1105/GolangPattern/templatemethod"
-	"github.com/thanhquy1105/GolangPattern/visitor"
+	abstractfactory "github.com/thanhquy1105/GolangPattern/abstractfactory/content"
+	adapter "github.com/thanhquy1105/GolangPattern/adapter/content"
+	bridge "github.com/thanhquy1105/GolangPattern/bridge/content"
+	builder "github.com/thanhquy1105/GolangPattern/builder/content"
+	chainofresponsibility "github.com/thanhquy1105/GolangPattern/chainofresponsibility/content"
+	command "github.com/thanhquy1105/GolangPattern/command/content"
+	iterator "github.com/thanhquy1105/GolangPattern/iterator/content"
+	mediator "github.com/thanhquy1105/GolangPattern/mediator/content"
+	memento "github.com/thanhquy1105/GolangPattern/memento/content"
+	observer "github.com/thanhquy1105/GolangPattern/observer/content"
+	prototype "github.com/thanhquy1105/GolangPattern/prototype/content"
+	singleton "github.com/thanhquy1105/GolangPattern/singleton/content"
+	state "github.com/thanhquy1105/GolangPattern/state/content"
+	strategy "github.com/thanhquy1105/GolangPattern/strategy/content"
+	templatemethod "github.com/thanhquy1105/GolangPattern/templatemethod/content"
+	visitor "github.com/thanhquy1105/GolangPattern/visitor/content"
 )
 
 func main() {
 	// 1. Singleton
-	singleton.Main()
+	singleton.Run()
 
 	//2. Builder
-	builder.Main()
+	builder.Run()
 
 	//3. Abstract Factory
-	abstractfactory.Main()
+	abstractfactory.Run()
 
 	//4. Prototype
-	prototype.Main()
+	prototype.Run()
 
 	// 5. Chain Of Responsibility
-	c.Main()
+	chainofresponsibility.Run()
 
 	//6. Command
-	command.Main()
+	command.Run()
 
 	//7. Iterator
-	iterator.Main()
+	iterator.Run()
 
 	//8. Mediator
-	mediator.Main()
+	mediator.Run()
 
 	//9. Memento
-	memento.Main()
+	memento.Run()
 
 	//10. Observer
-	observer.Main()
+	observer.Run()
 
 	//11. State
-	state.Main()
+	state.Run()
 
 	//12. Strategy
-	strategy.Main()
+	strategy.Run()
 
 	//13. Template method
-	templatemethod.Main()
+	templatemethod.Run()
 
 	//14. Visitor
-	visitor.Main()
+	visitor.Run()
 
 	//15. Adapter
-	adapter.Main()
+	adapter.Run()
 
 	//16. Bridge
-	bridge.Main()
+	bridge.Run()
 }
