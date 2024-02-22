@@ -14,6 +14,7 @@ import (
 	"github.com/thanhquy1105/GolangPattern/state"
 	"github.com/thanhquy1105/GolangPattern/strategy"
 	adapter "github.com/thanhquy1105/GolangPattern/structuralpattern-adapter"
+	bridge "github.com/thanhquy1105/GolangPattern/structuralpattern-bridge"
 	"github.com/thanhquy1105/GolangPattern/templatemethod"
 	"github.com/thanhquy1105/GolangPattern/visitor"
 )
@@ -63,4 +64,7 @@ func main() {
 
 	//15. Adapter
 	adapter.Main()
+
+	//16. Bridge
+	bridge.Main()
 }
