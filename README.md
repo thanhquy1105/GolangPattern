@@ -25,3 +25,4 @@
 14. Behavioral pattern - VISITOR
 15. Structural pattern - ADAPTER
 16. Structural pattern - BRIDGE
+16. Structural pattern - COMPOSITE

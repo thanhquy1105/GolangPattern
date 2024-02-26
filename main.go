@@ -7,6 +7,7 @@ import (
 	builder "github.com/thanhquy1105/GolangPattern/builder/content"
 	chainofresponsibility "github.com/thanhquy1105/GolangPattern/chainofresponsibility/content"
 	command "github.com/thanhquy1105/GolangPattern/command/content"
+	composite "github.com/thanhquy1105/GolangPattern/composite/content"
 	iterator "github.com/thanhquy1105/GolangPattern/iterator/content"
 	mediator "github.com/thanhquy1105/GolangPattern/mediator/content"
 	memento "github.com/thanhquy1105/GolangPattern/memento/content"
@@ -67,4 +68,7 @@ func main() {
 
 	//16. Bridge
 	bridge.Run()
+
+	//17. Composite
+	composite.Run()
 }
