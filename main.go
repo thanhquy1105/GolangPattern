@@ -9,6 +9,7 @@ import (
 	command "github.com/thanhquy1105/GolangPattern/command/content"
 	composite "github.com/thanhquy1105/GolangPattern/composite/content"
 	facade "github.com/thanhquy1105/GolangPattern/facade/content"
+	flyweight "github.com/thanhquy1105/GolangPattern/flyweight/content"
 	iterator "github.com/thanhquy1105/GolangPattern/iterator/content"
 	mediator "github.com/thanhquy1105/GolangPattern/mediator/content"
 	memento "github.com/thanhquy1105/GolangPattern/memento/content"
@@ -75,4 +76,7 @@ func main() {
 
 	//18. Facade
 	facade.Run()
+
+	//19. Flyweight
+	flyweight.Run()
 }

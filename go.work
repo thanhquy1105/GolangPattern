@@ -20,4 +20,5 @@ use (
 	./structural/bridge
 	./structural/composite
 	./structural/facade
+	./structural/flyweight
 )

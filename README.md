@@ -27,3 +27,4 @@
 16. Structural pattern - BRIDGE
 17. Structural pattern - COMPOSITE
 18. Structural pattern - FACADE
+19. Structural pattern - FLYWEIGHT
